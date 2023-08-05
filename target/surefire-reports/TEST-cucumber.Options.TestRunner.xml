@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber.Options.TestRunner" time="19.534" tests="19" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\New Sandipan\eclipse-workspace-RestAssured\RestAssuredFramework\target\test-classes;E:\New Sandipan\eclipse-workspace-RestAssured\RestAssuredFramework\target\classes;C:\Users\Sandipan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\Sandipan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\Sandipan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\Sandipan\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Sandipan\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\Sandipan\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\Sandipan\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\Sandipan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Sandipan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Sandipan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sandipan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Sandipan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Sandipan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Sandipan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Sandipan\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\Sandipan\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\Sandipan\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\Sandipan\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\Sandipan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Sandipan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\cucumber-junit\7.13.0\cucumber-junit-7.13.0.jar;C:\Users\Sandipan\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Sandipan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
+    <property name="sun.java.command" value="C:\Users\Sandipan\AppData\Local\Temp\surefire9914160145183407246\surefirebooter-20230805141605761_3.jar C:\Users\Sandipan\AppData\Local\Temp\surefire9914160145183407246 2023-08-05T14-16-05_410-jvmRun1 surefire-20230805141605761_1tmp surefire_0-20230805141605761_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\New Sandipan\eclipse-workspace-RestAssured\RestAssuredFramework\target\test-classes;E:\New Sandipan\eclipse-workspace-RestAssured\RestAssuredFramework\target\classes;C:\Users\Sandipan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\Sandipan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\Sandipan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\Sandipan\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Sandipan\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\Sandipan\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\Sandipan\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\Sandipan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Sandipan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Sandipan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sandipan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Sandipan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Sandipan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Sandipan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Sandipan\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\Sandipan\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\Sandipan\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\Sandipan\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\Sandipan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Sandipan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Sandipan\.m2\repository\io\cucumber\cucumber-junit\7.13.0\cucumber-junit-7.13.0.jar;C:\Users\Sandipan\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Sandipan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Sandipan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-20"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\New Sandipan\eclipse-workspace-RestAssured\RestAssuredFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Sandipan\AppData\Local\Temp\surefire9914160145183407246\surefirebooter-20230805141605761_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="20.0.1+9-29"/>
+    <property name="user.name" value="Sandipan"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Sandipan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Sandipan\AppData\Local\Temp\"/>
+    <property name="java.version" value="20.0.1"/>
+    <property name="user.dir" value="E:\New Sandipan\eclipse-workspace-RestAssured\RestAssuredFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-20\bin;E:\External Jars\apache-maven-3.9.3-bin\apache-maven-3.9.3\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Nodejs;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Sandipan\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Azure Data Studio\bin;C:\Users\Sandipan\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="20.0.1+9-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="Add the Add API with payload &quot;50.877045&quot; &quot;7.3157654&quot; 50 &quot;Naafbachtal Nature Reserve&quot; &quot;+7458748547&quot; &quot;Auenweg Neunkirchen-Seelscheid, Germany&quot; &quot;https://nsg.naturschutzinformationen.nrw.de/&quot; &quot;DE&quot;" classname=" #1" time="1.75">
+    <system-out><![CDATA[
+@AddPlaceAPI
+Scenario Outline:                                                                                                                                                                                        &amp#27;[90m# src/test/java/features/AddPlaceAPI.feature:18&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User call the &quot;Post&quot; the &quot;Addmapapi&quot; with the json payload" classname=" #1" time="13.307">
+    <system-out><![CDATA[  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAdd the Add API with payload &amp#27;[0m&amp#27;[32m&amp#27;[1m"50.877045"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"7.3157654"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m50&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"Naafbachtal Nature Reserve"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"+7458748547"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"Auenweg Neunkirchen-Seelscheid, Germany"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://nsg.naturschutzinformationen.nrw.de/"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"DE"&amp#27;[0m &amp#27;[90m# stepDefinations.AddPlaceAPIStepDefination.add_the_add_api_with_payload(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+is enium working /maps/api/place/add/json
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Naafbachtal Nature Reserve",
+    "phone_number": "+7458748547",
+    "address": "Auenweg Neunkirchen-Seelscheid, Germany",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "https://nsg.naturschutzinformationen.nrw.de/",
+    "language": "DE"
+}
+HTTP/1.1 200 OK
+Date: Sat, 05 Aug 2023 08:46:23 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "1c529aa523a5b34afb28be04fe1dbc8b",
+    "scope": "APP",
+    "reference": "39c58c22e66a011e02ae9e9d6904d38a39c58c22e66a011e02ae9e9d6904d38a",
+    "id": "39c58c22e66a011e02ae9e9d6904d38a"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Validates the HTTP StatusCode of the response is 200" classname=" #1" time="0.001">
+    <system-out><![CDATA[  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser call the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Post"&amp#27;[0m&amp#27;[32m the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Addmapapi"&amp#27;[0m&amp#27;[32m with the json payload&amp#27;[0m                                                                                                                                        &amp#27;[90m# stepDefinations.AddPlaceAPIStepDefination.user_call_the_the_with_the_json_payload(java.lang.String,java.lang.String)&amp#27;[0m
+200
+]]></system-out>
+  </testcase>
+  <testcase name="validates the &quot;status&quot; in the response is &quot;OK&quot;" classname=" #1" time="0.889">
+    <system-out><![CDATA[  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidates the HTTP StatusCode of the response is &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                                                                                                                              &amp#27;[90m# stepDefinations.AddPlaceAPIStepDefination.validates_the_http_of_the_response_is(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Validates &quot;scope&quot; in the response is &quot;APP&quot;" classname=" #1" time="0.016">
+    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mvalidates the &amp#27;[0m&amp#27;[32m&amp#27;[1m"status"&amp#27;[0m&amp#27;[32m in the response is &amp#27;[0m&amp#27;[32m&amp#27;[1m"OK"&amp#27;[0m                                                                                                                                                     &amp#27;[90m# stepDefinations.AddPlaceAPIStepDefination.validates_the_in_the_response_is(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Validate the &quot;Naafbachtal Nature Reserve&quot; value in the &quot;Getmapdetailsapi&quot; matches with the Addmapi response" classname=" #1" time="0.446">
+    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mValidates &amp#27;[0m&amp#27;[32m&amp#27;[1m"scope"&amp#27;[0m&amp#27;[32m in the response is &amp#27;[0m&amp#27;[32m&amp#27;[1m"APP"&amp#27;[0m                                                                                                                                                         &amp#27;[90m# stepDefinations.AddPlaceAPIStepDefination.validates_in_the_response_is(java.lang.String,java.lang.String)&amp#27;[0m
+is enium working /maps/api/place/get/json
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=1c529aa523a5b34afb28be04fe1dbc8b
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=1c529aa523a5b34afb28be04fe1dbc8b
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 05 Aug 2023 08:46:25 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 296
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Naafbachtal Nature Reserve",
+    "phone_number": "+7458748547",
+    "address": "Auenweg Neunkirchen-Seelscheid, Germany",
+    "types": "shoe park,shop",
+    "website": "https://nsg.naturschutzinformationen.nrw.de/",
+    "language": "DE"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="" classname=" #1" time="0.454">
+    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mValidate the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Naafbachtal Nature Reserve"&amp#27;[0m&amp#27;[32m value in the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Getmapdetailsapi"&amp#27;[0m&amp#27;[32m matches with the Addmapi response&amp#27;[0m                                                                                        &amp#27;[90m# stepDefinations.AddPlaceAPIStepDefination.validate_the_value_in_the_matches_with_the_addmapi_response(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add the Add API with payload &quot;52.1594683&quot; &quot;6.0659377&quot; 50 &quot;Marhe / Sfeervolle Bestrating&quot; &quot;+31557908831&quot; &quot;Woudweg BC Klarenbeek, Netherlands&quot; &quot;https://www.sfeervollebestrating.nl/&quot; &quot;NL&quot;" classname=" #2" time="0.003">
+    <system-out><![CDATA[
+@AddPlaceAPI
+Scenario Outline:                                                                                                                                                                                &amp#27;[90m# src/test/java/features/AddPlaceAPI.feature:19&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User call the &quot;Post&quot; the &quot;Addmapapi&quot; with the json payload" classname=" #2" time="0.255">
+    <system-out><![CDATA[  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAdd the Add API with payload &amp#27;[0m&amp#27;[32m&amp#27;[1m"52.1594683"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"6.0659377"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m50&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"Marhe / Sfeervolle Bestrating"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"+31557908831"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"Woudweg BC Klarenbeek, Netherlands"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://www.sfeervollebestrating.nl/"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"NL"&amp#27;[0m &amp#27;[90m# stepDefinations.AddPlaceAPIStepDefination.add_the_add_api_with_payload(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+is enium working /maps/api/place/add/json
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Marhe / Sfeervolle Bestrating",
+    "phone_number": "+31557908831",
+    "address": "Woudweg BC Klarenbeek, Netherlands",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "https://www.sfeervollebestrating.nl/",
+    "language": "NL"
+}
+HTTP/1.1 200 OK
+Date: Sat, 05 Aug 2023 08:46:25 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "9f1ae16e3931a85f4803bfdafed1aee6",
+    "scope": "APP",
+    "reference": "743fbcf3272a6a796c897f9b82394e48743fbcf3272a6a796c897f9b82394e48",
+    "id": "743fbcf3272a6a796c897f9b82394e48"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Validates the HTTP StatusCode of the response is 200" classname=" #2" time="0.002">
+    <system-out><![CDATA[  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser call the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Post"&amp#27;[0m&amp#27;[32m the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Addmapapi"&amp#27;[0m&amp#27;[32m with the json payload&amp#27;[0m                                                                                                                                &amp#27;[90m# stepDefinations.AddPlaceAPIStepDefination.user_call_the_the_with_the_json_payload(java.lang.String,java.lang.String)&amp#27;[0m
+200
+]]></system-out>
+  </testcase>
+  <testcase name="validates the &quot;status&quot; in the response is &quot;OK&quot;" classname=" #2" time="0.0">
+    <system-out><![CDATA[  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidates the HTTP StatusCode of the response is &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                                                                                                                      &amp#27;[90m# stepDefinations.AddPlaceAPIStepDefination.validates_the_http_of_the_response_is(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Validates &quot;scope&quot; in the response is &quot;APP&quot;" classname=" #2" time="0.01">
+    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mvalidates the &amp#27;[0m&amp#27;[32m&amp#27;[1m"status"&amp#27;[0m&amp#27;[32m in the response is &amp#27;[0m&amp#27;[32m&amp#27;[1m"OK"&amp#27;[0m                                                                                                                                             &amp#27;[90m# stepDefinations.AddPlaceAPIStepDefination.validates_the_in_the_response_is(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Validate the &quot;Marhe / Sfeervolle Bestrating&quot; value in the &quot;Getmapdetailsapi&quot; matches with the Addmapi response" classname=" #2" time="0.368">
+    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mValidates &amp#27;[0m&amp#27;[32m&amp#27;[1m"scope"&amp#27;[0m&amp#27;[32m in the response is &amp#27;[0m&amp#27;[32m&amp#27;[1m"APP"&amp#27;[0m                                                                                                                                                 &amp#27;[90m# stepDefinations.AddPlaceAPIStepDefination.validates_in_the_response_is(java.lang.String,java.lang.String)&amp#27;[0m
+is enium working /maps/api/place/get/json
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=9f1ae16e3931a85f4803bfdafed1aee6
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=9f1ae16e3931a85f4803bfdafed1aee6
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 05 Aug 2023 08:46:25 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 288
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Marhe / Sfeervolle Bestrating",
+    "phone_number": "+31557908831",
+    "address": "Woudweg BC Klarenbeek, Netherlands",
+    "types": "shoe park,shop",
+    "website": "https://www.sfeervollebestrating.nl/",
+    "language": "NL"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="" classname=" #2" time="0.389">
+    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mValidate the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Marhe / Sfeervolle Bestrating"&amp#27;[0m&amp#27;[32m value in the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Getmapdetailsapi"&amp#27;[0m&amp#27;[32m matches with the Addmapi response&amp#27;[0m                                                                             &amp#27;[90m# stepDefinations.AddPlaceAPIStepDefination.validate_the_value_in_the_matches_with_the_addmapi_response(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User add the Payload in the DeleteAPI" classname="Verify the Delete MAP API is working properly or not" time="0.0">
+    <system-out><![CDATA[
+@DelPlaceAPI
+Scenario: Verify the Delete MAP API is working properly or not         &amp#27;[90m# src/test/java/features/AddPlaceAPI.feature:22&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User call the &quot;DELETE&quot; the &quot;Deletemapapi&quot; with the json payload" classname="Verify the Delete MAP API is working properly or not" time="0.428">
+    <system-out><![CDATA[  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser add the Payload in the DeleteAPI&amp#27;[0m                          &amp#27;[90m# stepDefinations.AddPlaceAPIStepDefination.user_add_the_payload_in_the_delete_api()&amp#27;[0m
+is enium working /maps/api/place/delete/json
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "9f1ae16e3931a85f4803bfdafed1aee6"
+}
+HTTP/1.1 200 OK
+Date: Sat, 05 Aug 2023 08:46:26 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Validates the HTTP StatusCode of the response is 200" classname="Verify the Delete MAP API is working properly or not" time="0.004">
+    <system-out><![CDATA[  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser call the &amp#27;[0m&amp#27;[32m&amp#27;[1m"DELETE"&amp#27;[0m&amp#27;[32m the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Deletemapapi"&amp#27;[0m&amp#27;[32m with the json payload&amp#27;[0m &amp#27;[90m# stepDefinations.AddPlaceAPIStepDefination.user_call_the_the_with_the_json_payload(java.lang.String,java.lang.String)&amp#27;[0m
+200
+]]></system-out>
+  </testcase>
+  <testcase name="validates the &quot;status&quot; in the response is &quot;OK&quot;" classname="Verify the Delete MAP API is working properly or not" time="0.011">
+    <system-out><![CDATA[  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidates the HTTP StatusCode of the response is &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m            &amp#27;[90m# stepDefinations.AddPlaceAPIStepDefination.validates_the_http_of_the_response_is(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="Verify the Delete MAP API is working properly or not" time="0.015">
+    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mvalidates the &amp#27;[0m&amp#27;[32m&amp#27;[1m"status"&amp#27;[0m&amp#27;[32m in the response is &amp#27;[0m&amp#27;[32m&amp#27;[1m"OK"&amp#27;[0m                   &amp#27;[90m# stepDefinations.AddPlaceAPIStepDefination.validates_the_in_the_response_is(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

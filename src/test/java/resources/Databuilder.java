@@ -9,16 +9,16 @@ import pojo.pojoAddMap;
 public class Databuilder {
 	
 	
-	public pojoAddMap getPayload() {
+	public pojoAddMap getAddPayload(String lat,String lng, int accuracy,String name,String phone_number,String address,String website,String language) {
 		
 		
 		pojoAddMap pj = new pojoAddMap();
-		pj.setAccuracy(50);
-		pj.setName("Frontline house");
-		pj.setPhone_number("(+91) 983 893 3937");
-		pj.setAddress("29, side layout, cohen 09");
-		pj.setWebsite("http://google.com");
-		pj.setLanguage("French-IN");
+		pj.setAccuracy(accuracy);
+		pj.setName(name);
+		pj.setPhone_number(phone_number);
+		pj.setAddress(address);
+		pj.setWebsite(website);
+		pj.setLanguage(language);
 
 		Location loc = new Location();
 		loc.setLat(-38.383494);
@@ -31,6 +31,16 @@ public class Databuilder {
 		lt.add("shop");
 		pj.setTypes(lt);
 		return pj;
+	}
+	
+	public String Deletepayload(String Placeid) {
+		
+		
+		//String payload="{\"place_id\":\""+Placeid+"\"}";
+		//return payload;
+		
+		
+		return "{\r\n    \"place_id\":\""+Placeid+"\"\r\n}";
 	}
 
 }

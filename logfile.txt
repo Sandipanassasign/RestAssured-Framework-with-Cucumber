@@ -1,0 +1,200 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Naafbachtal Nature Reserve",
+    "phone_number": "+7458748547",
+    "address": "Auenweg Neunkirchen-Seelscheid, Germany",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "https://nsg.naturschutzinformationen.nrw.de/",
+    "language": "DE"
+}
+HTTP/1.1 200 OK
+Date: Sat, 05 Aug 2023 19:46:38 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "7d85902f0d96924c92ea9375a3d2744d",
+    "scope": "APP",
+    "reference": "693a968e02f8b9905a0e34e685297b18693a968e02f8b9905a0e34e685297b18",
+    "id": "693a968e02f8b9905a0e34e685297b18"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=7d85902f0d96924c92ea9375a3d2744d
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=7d85902f0d96924c92ea9375a3d2744d
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 05 Aug 2023 19:46:41 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 296
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Naafbachtal Nature Reserve",
+    "phone_number": "+7458748547",
+    "address": "Auenweg Neunkirchen-Seelscheid, Germany",
+    "types": "shoe park,shop",
+    "website": "https://nsg.naturschutzinformationen.nrw.de/",
+    "language": "DE"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Marhe / Sfeervolle Bestrating",
+    "phone_number": "+31557908831",
+    "address": "Woudweg BC Klarenbeek, Netherlands",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "https://www.sfeervollebestrating.nl/",
+    "language": "NL"
+}
+HTTP/1.1 200 OK
+Date: Sat, 05 Aug 2023 19:46:41 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "4dc5b601d5f8cc1bb21b11f3ed65dbc8",
+    "scope": "APP",
+    "reference": "a890bb5c32abaf7cad20a17f3e8dd64ca890bb5c32abaf7cad20a17f3e8dd64c",
+    "id": "a890bb5c32abaf7cad20a17f3e8dd64c"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=4dc5b601d5f8cc1bb21b11f3ed65dbc8
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=4dc5b601d5f8cc1bb21b11f3ed65dbc8
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 05 Aug 2023 19:46:41 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 288
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Marhe / Sfeervolle Bestrating",
+    "phone_number": "+31557908831",
+    "address": "Woudweg BC Klarenbeek, Netherlands",
+    "types": "shoe park,shop",
+    "website": "https://www.sfeervollebestrating.nl/",
+    "language": "NL"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "4dc5b601d5f8cc1bb21b11f3ed65dbc8"
+}
+HTTP/1.1 200 OK
+Date: Sat, 05 Aug 2023 19:46:42 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
